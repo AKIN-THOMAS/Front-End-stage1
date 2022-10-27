@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background: #F4F5F7;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 112px;
+    gap: 24px;
+    max-width: 100%;
+}
+.profile_id{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    width: 1152px;
+    height: 30px;
+    margin: auto;
+    font-family: 'Inter',cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+}
+
+button{
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 32px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}
+
+.twitter_zuri,
+.button_zuri,
+.zuri_books,
+.python_books,
+.check_coders,
+.design_books{
+    margin: 24px;
+}
+
+.twitter_zuri a,
+.button_zuri a,
+.zuri_books a,
+.python_books a,
+.check_coders a,
+.design_books a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    text-decoration: none;
+
+}
+.social-icons{
+    margin: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 64px 112px;
+}
+.main_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 64px;
+    width: 100%;
+    height: 100%;
+}
+.sub_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 2%;
+    width: 100%;
+    height: 100%;
+    gap: 70px;
+}
+.text{
+    width: 650px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Inter';
+    color: #667085;
+}
+.icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    margin-right: 208px;
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+}
+.icon img{
+    position: absolute;
+    background-color: #ffffff;
+}
+span{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #667085;
+}
+ @media(max-width: 1000px){
+    .main{
+        max-width: 100%;
+    }
+    span{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    body{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    button{
+        width: 343px;
+        height: 68px;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .twitter_zuri a,
+    .button_zuri a,
+    .zuri_books a,
+    .python_books a,
+    .check_coders a,
+    .design_books a{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        background-color: #EAECF0;
+    }
+    .main_footer{
+        padding: 13px 0;
+        gap: 0;
+        width: 100%;
+    }
+    .sub_footer{
+        padding: 0 1%;
+        gap: 30px;
+        width: 60%;
+        height: 60%;
+        display: flex;
+        flex: 0 0 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+ }
