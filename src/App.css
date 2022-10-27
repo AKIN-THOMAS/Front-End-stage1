@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 112px;
+    padding-top: 64px;
     gap: 24px;
     max-width: 100%;
 }
@@ -82,6 +82,11 @@ button{
     justify-content: center;
     padding: 64px 112px;
 }
+.social-icons img{
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+}
 .main_footer{
     display: flex;
     flex-direction: column;
@@ -128,6 +133,14 @@ span{
     background-color: #667085;
 }
  @media(max-width: 1000px){
+    body{
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
     .main{
         max-width: 100%;
     }
@@ -141,10 +154,9 @@ span{
         width: 100%;
     }
     button{
-        width: 343px;
         height: 68px;
         flex: 0 0 100%;
-        width: 100%;
+        width: 90%;
     }
     .twitter_zuri a,
     .button_zuri a,
@@ -165,13 +177,21 @@ span{
         width: 100%;
     }
     .sub_footer{
-        padding: 0 1%;
-        gap: 30px;
+        gap: 20px;
         width: 60%;
         height: 60%;
         display: flex;
         flex: 0 0 100%;
         width: 100%;
         flex-direction: column;
+    }
+    .internship{
+        margin-right: 120px;
+    }
+    .text{
+        margin-right: 70px;
+    }
+    .I4G{
+        margin-right: 180px;
     }
  }

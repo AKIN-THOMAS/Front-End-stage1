@@ -4,6 +4,7 @@ import hub_icon from './photo/hub_icon.png';
 import internship from './photo/internship.png';
 import I4G from './photo/I4G.png';
 import icon from './photo/Icon.png';
+import slack from './photo/slack.png';
 import './App';
 
 import './App.css'
@@ -37,7 +38,7 @@ const App = () => {
                 </div>
                
                     <div className="social-icons">
-                        <img  src= {hub_icon} alt="slack icon"/>
+                        <img  src= {slack} alt="slack icon"/>
                         <img  src= {hub_icon} alt =" github icon"/>
                     </div>
             </section>
