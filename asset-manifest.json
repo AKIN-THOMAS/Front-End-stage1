@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Front-End_Stage1/static/css/main.8224c543.css",
+    "main.js": "/Front-End_Stage1/static/js/main.0b2618a2.js",
+    "static/media/profile_hover.svg": "/Front-End_Stage1/static/media/profile_hover.859ee6c06a59d0cd5268053f028a09ce.svg",
+    "static/media/slack.png": "/Front-End_Stage1/static/media/slack.66799a3d98e94218a7ed.png",
+    "static/media/profile_pic.png": "/Front-End_Stage1/static/media/profile_pic.5ff40e1b5d2b90077f44.png",
+    "static/media/icon_hover.svg": "/Front-End_Stage1/static/media/icon_hover.ab6a6f7a0d87f12f6948849702b68b3b.svg",
+    "static/media/internship.svg": "/Front-End_Stage1/static/media/internship.22d4298a15b0797cf13152b0b88226c6.svg",
+    "static/media/mobile_share.svg": "/Front-End_Stage1/static/media/mobile_share.219d65fad44a57f4737f6ae835840ef1.svg",
+    "static/media/icon.svg": "/Front-End_Stage1/static/media/icon.8b4369de8ab30a8ae240d027dafeccf0.svg",
+    "index.html": "/Front-End_Stage1/index.html",
+    "main.8224c543.css.map": "/Front-End_Stage1/static/css/main.8224c543.css.map",
+    "main.0b2618a2.js.map": "/Front-End_Stage1/static/js/main.0b2618a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8224c543.css",
+    "static/js/main.0b2618a2.js"
+  ]
+}
