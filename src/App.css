@@ -12,12 +12,81 @@
     gap: 24px;
     max-width: 100%;
 }
+.icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 212px;
+    top: 7px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+.one{
+    right: 0;
+    top: 0;
+    
+}
+.two{
+    position: absolute;
+    right: -10px;
+    top: 0;
+    opacity: 0;
+    transition: 1s all;
+    cursor: pointer;
+    background: none;
+}
+.two:hover{
+    opacity: 1;
+}
+.mobile{
+    display: none;
+}
+.icon__1{
+    background-color: #ffffff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    position: relative;
+}
 .profile_id{
     display: flex;
     margin: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.profile_hover{
+    position: absolute;
+    left: 532px;
+    top: 0;
+    margin: auto;
+    opacity: 0;
+    cursor: pointer;
+}
+.profile_hover:hover{
+    opacity: 1;
+}
+.profile{
+    position: relative;
+}
+.profile_id:hover{
+    transition: 1s all;
+}
+.slack{
+    display: none;
+    width: 1152px;
+    height: 30px;
+    margin: auto;
+    font-family: 'Inter',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
 }
 .twitter{
     width: 1152px;
@@ -30,9 +99,10 @@
     line-height: 30px;
     text-align: center;
     color: #101828;
+    padding-top: 20px;
 }
 
-button{
+.button{
     box-sizing: border-box;
     margin: auto;
     display: flex;
@@ -46,23 +116,18 @@ button{
     background: #EAECF0;
     border: 1px solid #EAECF0;
     border-radius: 8px;
+    transition: 0.6s all;
+}
+.button:hover{
+    background: #D0D5DD;
+    border: 1px solid #D0D5DD;
 }
 
-.twitter_zuri,
-.button_zuri,
-.zuri_books,
-.python_books,
-.check_coders,
-.design_books{
+.a-button{
     margin: 24px;
 }
 
-.twitter_zuri a,
-.button_zuri a,
-.zuri_books a,
-.python_books a,
-.check_coders a,
-.design_books a{
+ .a-button a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -112,20 +177,7 @@ button{
     font-family: 'Inter';
     color: #667085;
 }
-.icon{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 50px;
-    margin-right: 208px;
-    background: #FFFFFF;
-    border: 1px dashed #D0D5DD;
-    border-radius: 20px;
-}
-.icon img{
-    position: absolute;
-    background-color: #ffffff;
-}
+
 span{
     content: '';
     width: 100%;
@@ -141,6 +193,14 @@ span{
         overflow-x: hidden;
 
     }
+    .mobile{
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        right: 200px;
+        top: -20px;
+    }
     .main{
         max-width: 100%;
     }
@@ -153,17 +213,12 @@ span{
         justify-content: center;
         width: 100%;
     }
-    button{
+    .button{
         height: 68px;
         flex: 0 0 100%;
         width: 90%;
     }
-    .twitter_zuri a,
-    .button_zuri a,
-    .zuri_books a,
-    .python_books a,
-    .check_coders a,
-    .design_books a{
+     .a-button a{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
@@ -195,3 +250,4 @@ span{
         margin-right: 250px;
     }
  }
+ 
