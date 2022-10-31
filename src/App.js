@@ -20,14 +20,14 @@ const App = () => {
                     <div className="icon__1">
                         <div className="icon">
                             <img  classname="one" src={icon} alt ="icon"/>
-                            <img className="two" src={icon_hover}/>
-                            <img  className="mobile" src={mobile_share}/>
+                            <img className="two" src={icon_hover} alt="icon"/>
+                            <img  className="mobile" src={mobile_share} alt=" mobile icon"/>
                         </div>
                         
                     </div>
                    <div className="profile">
-                        <img className="profile_id"  src= {profile_pic} alt="profile picture"/>
-                        <img className="profile_hover" src={hover}/>
+                        <img className="profile_id"  src= {profile_pic} alt="profile "/>
+                        <img className="profile_hover" src={hover} alt="profile"/>
                    </div>
                     <p className="twitter">Akin-Thomas Bishop</p>
                     <p className="slack">ABIMBOLA</p>
