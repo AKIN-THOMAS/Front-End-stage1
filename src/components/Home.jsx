@@ -9,7 +9,7 @@ import slack from '../photo/slack.png';
 import hover from '../photo/profile_hover.svg';
 import icon_hover from '../photo/icon_hover.svg';
 import mobile_share from '../photo/mobile_share.svg';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import '../App.css';
 
 
@@ -58,7 +58,7 @@ const Home = () => {
                             </div>
 
                             <div className="a-button">
-                                <a id="contact" className="button" target= 'blank'><Link to='/contact'>Contact me </Link> </a>
+                               <Link to='/contact' className="button" id="contact" target="blank">Contact me </Link>
                             </div>
                     </div>
                 

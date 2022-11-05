@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button"
 
 const Contact = () => {
      
-    }
+    
     return(
         
 <body>
@@ -47,7 +47,7 @@ const Contact = () => {
                                 </div>
                     
                             <div className="check">
-                                    <input type="checkbox" required/> <label>You agree to providing your data to {name} who may contact you</label>
+                                    <input type="checkbox" required/> <label>You agree to providing your data to Bishop who may contact you</label>
                             </div>
                     
                             <div>
@@ -73,6 +73,6 @@ const Contact = () => {
                 </footer>
 </body>
     );
-
+}
 
 export default Contact;

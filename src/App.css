@@ -133,7 +133,8 @@
     margin: 24px;
 }
 
- .a-button a{
+ .a-button a,
+ a-button Link{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
