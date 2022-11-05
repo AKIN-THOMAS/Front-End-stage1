@@ -3,6 +3,7 @@ import {useState} from 'react';
 import './contact.css';
 import internship from '../photo/internship.svg';
 import I4G from '../photo/I4G.png';
+import '../photo/checkbox.svg'
 import Button from "react-bootstrap/Button"
 import { useEffect} from 'react';
 
